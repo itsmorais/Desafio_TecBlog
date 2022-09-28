@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+  
+}
+
+div#app{
+  margin: 0 auto;
+  text-align: center;
+}
+
+header span{
+  color:brown;
+}
+header h1{
+  margin-bottom: 1%;
+}
+header , header a{
+  text-decoration: none;
+  color: white;
+  background-color: rgb(242, 242, 11);
+  padding-bottom: 1%;
+  
+}
+
