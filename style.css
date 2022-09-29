@@ -1,26 +1,105 @@
 *{
   box-sizing: border-box;
  margin: 0;
- padding: 0;
-  
+ padding: 0;  
 }
-
+a{
+  text-decoration: none;
+}
 div#app{
   margin: 0 auto;
   text-align: center;
+  background-color: HSL(360, 0%, 90%);  
 }
-
 header span{
-  color:brown;
+  color:HSL(47, 81%, 26%);
 }
 header h1{
   margin-bottom: 1%;
+  background-color:HSL(43, 93%, 51%);
+  font-weight: 700;
 }
 header , header a{
-  text-decoration: none;
   color: white;
-  background-color: rgb(242, 242, 11);
+  background-color:HSL(43, 93%, 51%);
   padding-bottom: 1%;
-  
 }
 
+section{
+  display: flex;
+  justify-content: center;
+}
+
+.posts{
+  width: 700px;
+}
+h2,a{
+  color: HSL(45, 73%, 69%);
+  font-weight: 700;
+}
+
+div.card{
+  background-color: white;
+  padding: 10px 0;
+  margin: 10px 0;
+  text-align: center;
+}
+div.card h2,p,a{
+  text-align: start;
+  padding-left: 30px;
+} 
+.leia_mais{
+  text-align: left;
+  padding: 0;
+}
+.aside{
+  width: 15%;
+  margin: 10px 15px;  
+}
+
+.recentes, .categorias{
+  background-color: white;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+}
+h3{
+  background-color: HSL(360, 0%, 80%);
+  color: HSL(360, 0%, 55%);
+  width: 95%;
+  margin: 10px auto;
+  text-align: start;
+  padding-left: 2px;
+}
+.recentes p{
+  text-align: start;  
+  padding-left: 10px;
+}
+
+.recentes a{
+  text-align: left;
+  padding: 0;
+}
+.categorias a{
+  text-align: left;
+  padding-left: 10px;
+}
+
+hr{
+  border: 0.3px rgb(203, 195, 195) dashed;
+  width: 100%;
+  margin: 5px auto;
+}
+footer,footer h3{
+  color: rgb(46, 46, 46);
+ font-weight: 700;  
+  padding: 10px 5px;
+  width: 925px;
+  margin: 10px auto;
+  font-size: 22px;
+}
+#foot{
+    background-color: HSL(360, 0%, 80%);
+    color: HSL(360, 0%, 55%);
+    text-align: center;  
+}
